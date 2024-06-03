@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazhi Xing - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 15px;
+            background: #fff;
+        }
+        .main h1 {
+            color: #333;
+        }
+        .contact-form {
+            background: #f4f4f4;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            color: #fff;
+            background: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #50b3a2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Yazhi Xing</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#thoughts">Thoughts</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container main">
+        <section id="about">
+            <h1>About Me</h1>
+            <p>
+                <strong>Name:</strong> Yazhi Xing<br>
+                <strong>Degree:</strong> MD/PhD<br>
+                <strong>Profession:</strong> Doctor<br>
+            </p>
+            <p>
+                I am a medical doctor and researcher specializing in hearing and vestibular research. My clinical work focuses on hearing loss, tinnitus, and vertigo. I am affiliated with Shanghai Jiao Tong University's Sixth People's Hospital, where I lead various research projects aimed at understanding and treating auditory disorders. My contributions to the field include numerous publications on the pathology and treatment of auditory nerve conditions and vestibular disorders.
+            </p>
+        </section>
+
+        <section id="publications">
+            <h1>Publications</h1>
+            <ul>
+                <li><a href="https://www.researchgate.net/profile/Yazhi-Xing">ResearchGate Profile</a></li>
+                <li><a href="https://orcid.org/0000-0001-8975-7242">ORCID Profile</a></li>
+            </ul>
+        </section>
+
+        <section id="thoughts">
+            <h1>Thoughts</h1>
+            <div id="thoughts-content">
+                <!-- This section will be dynamically updated with new thoughts and reflections -->
+                <p>Welcome to my thoughts section. Here, I will share my latest ideas, reflections, and updates on my research and clinical work.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <h1>Contact Me</h1>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+            <p>Messages will be reviewed before being publicly displayed.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Yazhi Xing. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
